@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.header {
+    background-color: #778899;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.saat, .tarih, .saatDilimi, .geriSayim, .dunyaSaatleri, .alarm {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.alarm label {
+    margin-right: 10px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #778899;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000000;
+}
